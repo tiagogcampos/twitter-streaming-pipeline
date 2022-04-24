@@ -20,11 +20,8 @@ For now, the TwitterStreamingClient only sends a simple sample data.
 
 ## Run
 ### 
-1. Create a docker secret named twitter_api_token with your twitter bearer
-   token.
-```shell
-$: echo "your_token_here" | docker secret create twitter_api_token -
-```
+1. Create a file twitter_api_token.txt with your bearer token and put it in the
+   root folder of the project (in the future it should be dynamic).
 2. Create all and run all containers
 ```shell
 $: docker-compose up -d

@@ -12,7 +12,3 @@ Using:
 
 
 For now, the TwitterStreamingClient only sends a simple sample data.
-
-TODO:
-[] - Add rules to streaming client.
-[] - 

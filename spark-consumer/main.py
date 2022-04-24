@@ -1,8 +1,7 @@
 import os
 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import from_json, col, get_json_object
-from pyspark.sql.types import StructType, StringType, StructField
+from pyspark.sql.functions import col, get_json_object
 
 def main():
     kafka_brokers = os.getenv("KAFKA_BROKERS")
